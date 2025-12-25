@@ -1,0 +1,41 @@
+{
+  "labels": [
+    "circle",
+    "shake",
+    "still"
+  ],
+  "label_to_id": {
+    "circle": 0,
+    "shake": 1,
+    "still": 2
+  },
+  "train_files": [
+    "circle3.zip",
+    "circle2.zip",
+    "circle5.zip",
+    "shake2.zip",
+    "shake4.zip",
+    "shake.zip",
+    "still5.zip",
+    "still4.zip",
+    "still2-2.zip",
+    "still3.zip"
+  ],
+  "val_files": [
+    "circle4.zip",
+    "shake1.zip",
+    "still2.zip"
+  ],
+  "test_files": [
+    "circle1.zip",
+    "circle.zip",
+    "shake3.zip",
+    "shake5.zip",
+    "still.zip",
+    "still1.zip"
+  ],
+  "win_sec": 0.5,
+  "hop_sec": 0.1,
+  "split_method": "by_segment",
+  "note": "Train/val/test split by recording segment to avoid data leakage."
+}
